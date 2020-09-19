@@ -1,0 +1,287 @@
+html
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: whitesmoke;
+}
+
+.title1 {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1.title1{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+nav {
+  width: 102%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  background: black;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-right: 30px;
+}
+
+nav div {
+  color: white;
+  font-size: large;
+  line-height: 60px;
+  position: absolute;
+}
+
+nav ul {
+  list-style-type: none ;
+  margin: 0;
+  padding-left: 15;
+  text-align: right;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  border-color: white;
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  line-height: 60px;
+}
+
+img#logo{
+  height: 60px;
+  width: 60px;
+}
+
+footer {
+    background-color: black;
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+
+footer a {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.des {
+    text-align: center;
+}
+
+.BLM {
+    height: 300px;
+    width: 300px;
+    border-style: double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.char {
+    height: 200;
+    width: 300;
+    display: flexbox;
+}
+
+.row {
+    display: flex;
+  }
+
+.column {
+    flex: 33.33%;
+    padding: 0px;
+  }
+
+.titles {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.hand {
+    width: 620px;
+    height: 335px;
+    display: block;
+    margin-left: 10px;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+  }
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.about-home {
+  text-align: left;
+  padding-left: 100px;
+}
+
+li.about-home{
+  list-style: none;
+  font-size: 23px;
+}
+
+li.about-print{
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-print {
+  text-align: left;
+  color: grey;
+  padding-left: 100px;
+  padding-right: 40px;
+  padding-top: 15px;
+}
+
+li.merch-home {
+  list-style: none;
+  font-size: 23px;
+}
+
+.merch-home {
+  text-align: right;
+}
+
+li.merch-print {
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.merch-print {
+  text-align: right;
+  color: grey;
+}
+
+div.homepage {
+  display: -webkit-inline-box;
+}
+
+div.homepage2 {
+  display: -webkit-inline-box;
+  margin-left: 700px;
+}
+
+p#merchtitle {
+ font-size: 25px; 
+ padding: 0;
+ border: 0;
+ margin: -5;
+}
+
+button.learn-button{
+  margin-left: 262px;
+  margin-top: -100px;
+  color: white;
+}
+
+div.bottom{
+  display: -webkit-inline-box;
+}
+
+.learn-button a{
+  font-size: 14px;
+
+}
+
+p#merch-info {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: grey;
+  margin-left: -5px;
+}
+
+button:hover {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  cursor: pointer;
+}
+
+.shop-button {
+    background:grey;
+    border-style: solid;
+    border-color:grey;
+    size: 30px;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    margin-top: -80px;
+    color: white;
+}
+
+.learn-button {
+  background:grey;
+  border-style: solid;
+  border-color:grey;
+  size: 30px;
+  text-align: center;
+  font-size: 20px;
+  width: 120 px;
+  height: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button a {
+  color: white;
+  text-align: center;
+}
+
+div.formsheet{
+  background-color: lightgray;
+  margin-bottom: 190px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-top: 130px;
+  margin-left: 160px;
+}
+
+h2#info3{
+  text-align: center;
+}
+ 
+.pic {
+  width: 270px;
+  height: 270px ;
+  margin-left: 30px;
+}
+
+div.slideshow-container{
+  margin-left: 160px;
+  margin-top: 80px;
+}
+
+footer{
+  bottom:0
+}
